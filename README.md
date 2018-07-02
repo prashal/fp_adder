@@ -5,9 +5,7 @@ Floating Point Adder in VHDL and Verification of result with matlab code
 This project was done as a help assignment of a junior friend. The entire 32-bit Floating Point Adder is designed in VHDL. 
 
 ## Implementation Details:
-The project uses the IEEE-754 Single Precision floating point format. The following table lists how the 32-bit floating number is divided into 3 parts viz. Mantissa, Exponent and the Sign bit of length 23, 8 and 1 bits accordingly.
-
-Using the above format, the floating point number can be expressed as follows -
+The project uses the IEEE-754 Single Precision floating point format. The  32-bit floating number is divided into 3 parts viz. Mantissa, Exponent and the Sign bit of length 23, 8 and 1 bits accordingly. Using the format, the floating point number can be expressed as follows -
 
 (-1)*sign 1.mantissa x 2 ^ exponent
 
